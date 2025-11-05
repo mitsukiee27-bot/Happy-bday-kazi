@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Me When You Feel...</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="website-container">
+        
+        <div id="home-page" class="page active">
+            <header>
+                <div class="logo">🎂 BIRTHDAY!</div>
+            </header>
+            
+            <main class="home-main">
+                <h1 class="main-title">READ ME WHEN YOU FEEL...</h1>
+                <p class="tagline">KIND WORDS FOR EVERY MOOD</p>
+                
+                <div class="emotion-grid">
+                    <div class="emotion-card" data-target="birthday">
+                        <span class="icon">🎂</span>
+                        <p>BIRTHDAY</p>
+                    </div>
+                    <div class="emotion-card" data-target="mad">
+                        <span class="icon">⛈️</span>
+                        <p>MAD</p>
+                    </div>
+                    <div class="emotion-card" data-target="happy">
+                        <span class="icon">☀️</span>
+                        <p>HAPPY</p>
+                    </div>
+                    <div class="emotion-card" data-target="berhasil">
+                        <span class="icon">🏆</span>
+                        <p>BERHASIL</p>
+                    </div>
+                    <div class="emotion-card" data-target="gagal">
+                        <span class="icon">😔</span>
+                        <p>GAGAL</p>
+                    </div>
+                    <div class="emotion-card" data-target="ugly">
+                        <span class="icon">💔</span>
+                        <p>UGLY</p>
+                    </div>
+                    <div class="emotion-card" data-target="kesepian">
+                        <span class="icon">👤</span>
+                        <p>KESEPIAN</p>
+                    </div>
+                    <div class="emotion-card" data-target="burnout">
+                        <span class="icon">🔥</span>
+                        <p>BURN OUT</p>
+                    </div>
+                    <div class="emotion-card" data-target="amazing">
+                        <span class="icon">✨</span>
+                        <p>AMAZING</p>
+                    </div>
+                    <div class="emotion-card wide" data-target="break">
+                        <span class="icon">☕</span>
+                        <p>NEED BREAK</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div id="birthday" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">HAPPY 18TH BIRTHDAY!</h2>
+                <p class="letter-text">
+                    On this special day marking your 18th year, I just want to take a moment to celebrate you. I know you're right in the middle of a crucial time with your university entrance exams, and I truly admire your dedication and hard work. All the late nights and intense studying are a testament to your strength and commitment to your future.
+                </p>
+                <p class="signature">
+                    Once again, have a wonderful birthday! Ka Zizizi
+                </p>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+
+        <div id="mad" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU FEEL MAD</h2>
+                <p class="letter-text">
+                    I understand that you are feeling angry right now and that is completely valid. Anger is a natural human emotion that Allah has given us as a signal that something needs attention. Remember what Allah says in the Quran about controlling anger and forgiving others. This feeling will pass and you will emerge stronger. Take a deep breath and know that you have the strength to handle this situation with grace. Your anger does not define you rather it shows you care deeply about things. Trust that Allah has a plan in every situation and this challenge is helping you grow.
+                </p>
+                <div class="quote-box">
+                    "This feeling will pass, and you will emerge stronger."
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+
+        <div id="happy" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU FEEL HAPPY</h2>
+                <p class="letter-text">
+                    Alhamdulillah it is beautiful to see you happy. This joy you feel is a blessing from Allah a reminder of His endless mercy. Genuine happiness is a reflection of a content heart and you deserve every bit of this light. Cherish this moment and let it fuel your gratitude. Remember that happiness is not just an emotion but a state of being that comes from recognizing Allah's blessings in every small thing. May this happiness continue to radiate from you and inspire those around you. Keep shining with this positive energy.
+                </p>
+                <div class="quote-box">
+                    "Keep shining with this positive energy!"
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+        
+        <div id="berhasil" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU FEEL SUCCESSFUL</h2>
+                <p class="letter-text">
+                    Congratulations on your achievement. This success is a testament to your hard work and dedication and Allah has blessed your efforts. Remember that every accomplishment comes with His permission and grace. Stay humble in your success and grateful for the journey. Your determination has brought you here and this is just one of many milestones you will reach. Let this achievement remind you of your capabilities and Allah's support in your endeavors. Keep striving with the same passion and trust in His plan for you.
+                </p>
+                <div class="quote-box">
+                    "This is just one of many milestones you will reach!"
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+
+        <div id="gagal" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU FEEL YOU'VE FAILED</h2>
+                <p class="letter-text">
+                    I know this setback feels heavy right now but please remember that failure is not the end of your story. Allah teaches us through the Quran that after difficulty comes ease. Every stumble is a lesson that shapes you into a stronger and wiser person. Your value is not determined by this moment but by your resilience and faith. Trust that Allah is with you even in this struggle and He is preparing you for something greater. Take this as a stepping stone not a stumbling block. You will rise again.
+                </p>
+                <div class="quote-box">
+                    "Take this as a stepping stone not a stumbling block. You will rise again."
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+        
+        <div id="ugly" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU FEEL UGLY</h2>
+                <p class="letter-text">
+                    You are beautifully and uniquely created by Allah. His artistry is reflected in every part of you. Society's standards do not define your worth and these feelings of inadequacy are whispers from shaytan. Remember that true beauty lies in your character your kindness and your faith. Allah loves those who are grateful for how He made them. Hold your head high and recognize the light within you. You are enough just as you are and you are deserving of love and respect especially from yourself.
+                </p>
+                <div class="quote-box">
+                    "Your true beauty lies in your character, kindness, and faith!"
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+
+        <div id="kesepian" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU FEEL LONELY</h2>
+                <p class="letter-text">
+                    Feeling alone is a heavy burden, but please remember that Allah is Al-Wali (The Protecting Friend). You are never truly alone when you remember Him. Use this quiet time to connect deeper with your faith or pursue things you enjoy. Solitude can be a gift for self-reflection. Trust that good company will find you at the right time. For now, know that your presence is valued, and there are many people who care about you.
+                </p>
+                <div class="quote-box">
+                    "You are never truly alone when you remember Him."
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+
+        <div id="burnout" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU FEEL BURN OUT (Academic)</h2>
+                <p class="letter-text">
+                    Academic burnout is real and it is okay to feel exhausted. Your mind and body need rest and there is no shame in taking a break. Allah does not burden a soul beyond what it can bear. Remember that your worth is not measured by your productivity or grades. Step back breathe and give yourself permission to pause. You are more than your achievements and your well-being matters. Trust that Allah has a timing for everything and sometimes slowing down is exactly what you need to move forward stronger.
+                </p>
+                <div class="quote-box">
+                    "Your worth is not measured by your productivity or grades."
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+
+        <div id="amazing" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU FEEL AMAZING</h2>
+                <p class="letter-text">
+                    This is wonderful. When you feel amazing it is a reflection of the barakah in your life. Embrace this energy and use it to spread positivity and kindness. Allah has blessed you with this light so let it shine brightly. Your enthusiasm and joy are contagious and they can uplift others too. Remember to thank Allah for these moments of pure happiness and confidence. You are capable of incredible things and this feeling is a reminder of your potential. Keep thriving and inspiring.
+                </p>
+                <div class="quote-box">
+                    "Embrace this energy and use it to spread positivity and kindness."
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+
+        <div id="break" class="page content-page">
+            <div class="letter-content">
+                <h2 class="letter-title">READ ME WHEN YOU NEED A BREAK</h2>
+                <p class="letter-text">
+                    It is completely okay to need a break. Rest is not a sign of weakness but an act of self-care and wisdom. Allah encourages us to take care of our bodies and minds as they are amanah from Him. Give yourself permission to step back recharge and return with renewed energy. You do not have to be productive all the time to be worthy. Listen to what your soul needs whether it is quiet time a walk or simply doing nothing. You deserve this pause and you will come back stronger.
+                </p>
+                <div class="quote-box">
+                    "Rest is not a sign of weakness but an act of self-care and wisdom."
+                </div>
+            </div>
+            <button class="back-button">Kembali ke Menu Utama</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
