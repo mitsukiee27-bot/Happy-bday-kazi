@@ -1,0 +1,100 @@
+/* Warna Utama (ungu-putih minimalis) */
+:root {
+    --color-primary: #8A2BE2; /* Biru Ungu (Aksen Utama) */
+    --color-light-purple: #E6E0F2; /* Ungu Sangat Muda (Background Card) */
+    --color-text-dark: #333333; /* Teks Gelap */
+    --color-bg-white: #ffffff;
+    --color-shadow: rgba(138, 43, 226, 0.2); /* Shadow ungu */
+}
+
+/* Base Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-bg-white);
+    color: var(--color-text-dark);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#website-container {
+    width: 100%;
+    max-width: 900px;
+    background-color: var(--color-bg-white);
+    box-shadow: 0 0 40px var(--color-shadow);
+    min-height: 80vh;
+    padding: 30px;
+}
+
+/* Page Management */
+.page {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.page.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* HOMEPAGE STYLE */
+.home-main { text-align: center; padding: 50px 0; }
+.main-title { font-size: 3em; font-weight: 700; color: var(--color-primary); margin: 0; line-height: 1.2; }
+.tagline { font-size: 1em; font-weight: 400; color: var(--color-text-dark); margin-top: 10px; letter-spacing: 2px; }
+
+/* Emotion Grid */
+.emotion-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 50px; }
+.emotion-card {
+    width: 150px; height: 150px; background-color: var(--color-light-purple);
+    border-radius: 20px; display: flex; flex-direction: column;
+    justify-content: center; align-items: center; cursor: pointer;
+    transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.emotion-card:hover {
+    transform: translateY(-5px); box-shadow: 0 8px 15px var(--color-shadow);
+    background-color: #D3C3E6;
+}
+
+.emotion-card .icon { font-size: 3em; margin-bottom: 10px; }
+.emotion-card p { font-weight: 600; color: var(--color-primary); margin: 0; }
+.emotion-card.wide { width: 100%; max-width: 320px; }
+
+
+/* CONTENT PAGE STYLE */
+.content-page { padding: 40px 20px; text-align: center; }
+.letter-content {
+    max-width: 650px; margin: 0 auto 40px; text-align: left;
+    background-color: var(--color-light-purple); padding: 30px; border-radius: 15px;
+}
+
+.letter-title { font-size: 2em; color: var(--color-primary); font-weight: 700; margin-top: 0; }
+.letter-text { font-size: 1em; line-height: 1.7; margin-bottom: 15px; font-weight: 300; color: var(--color-text-dark); }
+.signature { font-style: italic; margin-top: 20px; font-weight: 600; color: var(--color-primary); }
+.quote-box {
+    margin: 25px 0; padding: 15px 20px; border-left: 5px solid var(--color-primary);
+    background-color: #ffffff; font-style: italic; font-weight: 600; color: var(--color-primary); border-radius: 5px;
+}
+
+.back-button {
+    background-color: var(--color-primary); color: white; border: none;
+    padding: 12px 30px; font-size: 1em; font-weight: 600; border-radius: 50px;
+    cursor: pointer; transition: background-color 0.3s ease;
+}
+.back-button:hover { background-color: #6A1AA5; }
+
+/* Responsivitas */
+@media (max-width: 600px) {
+    .main-title { font-size: 2em; }
+    .emotion-card { width: 45%; height: 120px; border-radius: 15px; }
+    .emotion-card .icon { font-size: 2em; }
+    .emotion-card p { font-size: 0.8em; }
+    .letter-title { font-size: 1.5em; }
+}
